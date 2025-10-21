@@ -10,7 +10,7 @@ export default defineConfig({
       // 1. Match all requests starting with /api
       '/api': {
         // 2. Target the server (without the context path)
-        target: 'http://localhost:8080', 
+        target: 'http://localhost:8080/api/v1.0', 
         changeOrigin: true,
         secure: false,
         
