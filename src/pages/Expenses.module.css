@@ -53,4 +53,45 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* ... etc ... */
+.error {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+}
+
+.itemName {
+    font-weight: bold;
+}
+
+.itemDate {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.itemAmount {
+    color: red;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem; /* Smaller padding */
+    font-size: 0.8rem; /* Smaller font */
+}
